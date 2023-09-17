@@ -1,0 +1,24 @@
+.Layout { 
+    position: relative;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+header{
+    height: 100px;
+}
+
+footer{
+    height: 218px;
+}
+
+
+
+
+
+
+
+
+

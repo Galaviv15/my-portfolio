@@ -1,0 +1,46 @@
+
+.Projects{
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+    border-radius: 20px;
+    background-image: url("../../../public/images/bg-images/space-bg.png");
+    padding: 75px 0;
+}
+
+.Projects .all-projects{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.Projects .projects-container-heading{
+    font-size: 5rem;
+    font-family: Barlow;
+}
+
+
+.Projects .cards-container{
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 20px 0;
+}
+
+
+
+
+@media screen and (max-width: 960px) {
+    .Projects .cards-container{
+        color: #fff;
+        display: flex;
+        flex-direction: column;
+    }
+
+}

@@ -1,0 +1,29 @@
+* {
+  box-sizing: border-box;
+}
+
+.Main{
+  font-family: "Dosis";
+  display: flex;
+  flex-direction: column;
+}
+
+.Main .first-container{
+  display: flex;
+  justify-content: center;
+}
+
+.Main .second-container{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 250px;
+}
+
+.Main .third-container{ 
+  margin: 250px 0;
+  display: flex;
+  justify-content: center;
+}
+
+
+

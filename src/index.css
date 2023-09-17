@@ -1,0 +1,19 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow&family=Dosis&family=Montserrat&family=Roboto&display=swap");
+
+body,
+html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-image: url("../public/images/bg-images/space-bg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+
+body,
+html *{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
