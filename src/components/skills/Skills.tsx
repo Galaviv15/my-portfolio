@@ -54,10 +54,6 @@ function Skills() {
   },[])
 
 
-
-
-
-
   let skills = [
     { name: "HTML", url: "images/skills-images/html-logo.png" },
     { name: "CSS", url: "images/skills-images/css-logo.png" },
@@ -71,25 +67,9 @@ function Skills() {
     { name: "MySQL", url: "images/skills-images/mysql-logo.png" },
     { name: "GCP", url: "images/skills-images/gcp-logo.png" },
     { name: "Linux", url: "images/skills-images/linux-logo.png" },
+    { name: "Android", url: "images/skills-images/android-logo.png" },
   ];
 
-  const settingsSmallScreen = {
-    className: "skills-slider",
-    dots: false,
-    infinite: true,
-    speed: 500,
-    slidesToShow: 2,
-    slidesToScroll: 1,
-  };
-
-  const defaultSettings = {
-    className: "skills-slider",
-    dots: false,
-    infinite: true,
-    speed: 1500,
-    slidesToShow: 3,
-    slidesToScroll: 3
-  };
 
   return (
     <div id="skills-section" className="Skills">
@@ -131,6 +111,9 @@ function Skills() {
         </div>
         <div className="skill-logo">
           <img className="skill-logo-img" src={skills[11].url} alt="" />
+        </div>
+        <div className="skill-logo">
+          <img className="skill-logo-img" src={skills[12].url} alt="" />
         </div>
       </Slider>
     </div>

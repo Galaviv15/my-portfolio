@@ -17,7 +17,7 @@ function Projects() {
       name: "Calculator App",
       imgURL: "images/projects-images/calculator-app.png",
       description:
-        "A Calculator App, Developed by using React, the algorithm and logics developed with Javascript.",
+        "A Calculator App, The UI developed by using React.js, the algorithm and logics developed with Javascript.",
       githubLink: "https://github.com/Galaviv15/calculator-app",
       websiteLink: "",
     },
@@ -42,7 +42,7 @@ function Projects() {
             githubLink={projects[1].githubLink}
           />
         </div>
-      
+        <h1 className="work-in-progress-heading">More projects are in progress...</h1>
       </div>
     </div>
   );
