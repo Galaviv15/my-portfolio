@@ -21,7 +21,16 @@ function Projects() {
       githubLink: "https://github.com/Galaviv15/calculator-app",
       websiteLink: "",
     },
+    {
+      name: "Champions League API",
+      imgURL: "images/projects-images/champion-league-api-project.png",
+      description:
+        "A Web App that presents the Champions League Standings, Statistics for both Players & Teams, the results of games been played and the future fixtures.",
+      githubLink: "https://github.com/Galaviv15/champions-league-api",
+      websiteLink: "",
+    },
   ];
+
 
   return (
     <div id="projects-section" className="Projects">
@@ -40,6 +49,12 @@ function Projects() {
             imgURL={projects[1].imgURL}
             description={projects[1].description}
             githubLink={projects[1].githubLink}
+          />
+          <ProjectCard
+            name={projects[2].name}
+            imgURL={projects[2].imgURL}
+            description={projects[2].description}
+            githubLink={projects[2].githubLink}
           />
         </div>
         <h1 className="work-in-progress-heading">More projects are in progress...</h1>
