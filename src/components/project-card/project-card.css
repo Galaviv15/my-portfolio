@@ -87,6 +87,20 @@
   }
 }
 
+@media screen and (max-width: 410px) {
+  .intro .project-name {
+    font-size: 1.5rem;
+    margin-top: 5px;
+    text-align: center;
+  }
+
+  .intro .project-description {
+    font-size: 1rem;
+    margin: 5px;
+  }
+}
+
+
   .link-button {
     cursor: pointer;
     visibility: hidden;
