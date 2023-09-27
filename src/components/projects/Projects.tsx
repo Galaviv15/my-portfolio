@@ -25,7 +25,8 @@ function Projects() {
       name: "Champions League API",
       imgURL: "images/projects-images/champion-league-api-project.png",
       description:
-        "A Web App that presents the Champions League Standings, Statistics for both Players & Teams, the results of games been played and the future fixtures.",
+        "A Web App that presents live Champions League Standings, Statistics for both Players & Teams, the results of games been played and the future fixtures." 
+        +" Data is taken from Football-API and updates every day.",
       githubLink: "https://github.com/Galaviv15/champions-league-api",
       websiteLink: "",
     },
@@ -50,7 +51,9 @@ function Projects() {
             description={projects[1].description}
             githubLink={projects[1].githubLink}
           />
-          <ProjectCard
+        </div>
+        <div className="cards-container">
+           <ProjectCard
             name={projects[2].name}
             imgURL={projects[2].imgURL}
             description={projects[2].description}
