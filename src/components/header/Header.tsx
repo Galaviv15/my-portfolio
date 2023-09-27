@@ -26,7 +26,7 @@ function Header() {
 
   const onResumeClick = () => {
     setClick(!click);
-    window.open("https://www.docdroid.net/54t4Pkk/gal-aviv-cv-pdf", "_blank", "noreferrer");;
+    window.open("https://www.docdroid.net/zonNs56/gal-aviv-cv-pdf", "_blank", "noreferrer");;
   };
 
   
