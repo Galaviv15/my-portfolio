@@ -8,8 +8,9 @@ function Projects() {
       name: "Coupons4U",
       imgURL: "images/projects-images/coupons4u-img.png",
       description:
-        "Full Flow Web Application, Developed by using Java (maven, Spring), React.ts with redux," +
-        "and MySQL as the DB. I used JWT Token and password encryption on registration and login to ensure security.",
+        "Full Flow Web Application, Server developed with Java (maven, Spring), UI developed with React.ts with redux," +
+        " and MySQL as the DB. I used JWT Token and password encryption to ensure security. " +
+        "In addition I used Login Filter, Exception Handler and more.",
       githubLink: "https://github.com/Galaviv15/coupons-server",
       websiteLink: "http://34.165.22.160/",
     },
